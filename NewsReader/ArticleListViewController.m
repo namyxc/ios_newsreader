@@ -7,6 +7,8 @@
 //
 
 #import "ArticleListViewController.h"
+#import "ArticleViewController.h"
+#import "ArticleTableViewCell.h"
 
 @interface ArticleListViewController () <UITableViewDelegate, UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *articleTableView;
@@ -42,6 +44,11 @@
     
     cell.textLabel.text = [NSString stringWithFormat:@"%ld", indexPath.row];
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    ArticleViewController* articleVc = [ArticleViewController new];
+    [self.navigationController pushViewController:articleVc animated:YES];
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{

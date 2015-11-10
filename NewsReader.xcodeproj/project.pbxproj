@@ -13,6 +13,10 @@
 		8A7E419E1BF225AF00490D75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A7E419C1BF225AF00490D75 /* LaunchScreen.storyboard */; };
 		8A7E41A81BF226BE00490D75 /* ArticleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E41A61BF226BE00490D75 /* ArticleListViewController.m */; };
 		8A7E41A91BF226BE00490D75 /* ArticleListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A7E41A71BF226BE00490D75 /* ArticleListViewController.xib */; };
+		8A7E41AD1BF239F700490D75 /* ArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E41AB1BF239F700490D75 /* ArticleViewController.m */; };
+		8A7E41AE1BF239F700490D75 /* ArticleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A7E41AC1BF239F700490D75 /* ArticleViewController.xib */; };
+		8A7E41B21BF241C600490D75 /* ArticleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E41B01BF241C600490D75 /* ArticleTableViewCell.m */; };
+		8A7E41B31BF241C600490D75 /* ArticleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A7E41B11BF241C600490D75 /* ArticleTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,12 @@
 		8A7E41A51BF226BE00490D75 /* ArticleListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleListViewController.h; sourceTree = "<group>"; };
 		8A7E41A61BF226BE00490D75 /* ArticleListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleListViewController.m; sourceTree = "<group>"; };
 		8A7E41A71BF226BE00490D75 /* ArticleListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleListViewController.xib; sourceTree = "<group>"; };
+		8A7E41AA1BF239F700490D75 /* ArticleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleViewController.h; sourceTree = "<group>"; };
+		8A7E41AB1BF239F700490D75 /* ArticleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleViewController.m; sourceTree = "<group>"; };
+		8A7E41AC1BF239F700490D75 /* ArticleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleViewController.xib; sourceTree = "<group>"; };
+		8A7E41AF1BF241C600490D75 /* ArticleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleTableViewCell.h; sourceTree = "<group>"; };
+		8A7E41B01BF241C600490D75 /* ArticleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleTableViewCell.m; sourceTree = "<group>"; };
+		8A7E41B11BF241C600490D75 /* ArticleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,12 @@
 				8A7E41921BF225AF00490D75 /* AppDelegate.m */,
 				8A7E41A51BF226BE00490D75 /* ArticleListViewController.h */,
 				8A7E41A61BF226BE00490D75 /* ArticleListViewController.m */,
+				8A7E41AF1BF241C600490D75 /* ArticleTableViewCell.h */,
+				8A7E41B01BF241C600490D75 /* ArticleTableViewCell.m */,
+				8A7E41B11BF241C600490D75 /* ArticleTableViewCell.xib */,
+				8A7E41AA1BF239F700490D75 /* ArticleViewController.h */,
+				8A7E41AB1BF239F700490D75 /* ArticleViewController.m */,
+				8A7E41AC1BF239F700490D75 /* ArticleViewController.xib */,
 				8A7E41A71BF226BE00490D75 /* ArticleListViewController.xib */,
 				8A7E419A1BF225AF00490D75 /* Assets.xcassets */,
 				8A7E419C1BF225AF00490D75 /* LaunchScreen.storyboard */,
@@ -136,7 +152,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A7E41B31BF241C600490D75 /* ArticleTableViewCell.xib in Resources */,
 				8A7E41A91BF226BE00490D75 /* ArticleListViewController.xib in Resources */,
+				8A7E41AE1BF239F700490D75 /* ArticleViewController.xib in Resources */,
 				8A7E419E1BF225AF00490D75 /* LaunchScreen.storyboard in Resources */,
 				8A7E419B1BF225AF00490D75 /* Assets.xcassets in Resources */,
 			);
@@ -150,7 +168,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A7E41931BF225AF00490D75 /* AppDelegate.m in Sources */,
+				8A7E41AD1BF239F700490D75 /* ArticleViewController.m in Sources */,
 				8A7E41A81BF226BE00490D75 /* ArticleListViewController.m in Sources */,
+				8A7E41B21BF241C600490D75 /* ArticleTableViewCell.m in Sources */,
 				8A7E41901BF225AF00490D75 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
