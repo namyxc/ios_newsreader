@@ -15,7 +15,7 @@
 
 @implementation AppDelegate
 
-//https://dl.dropboxusercontent.com/u/1986074/t360/news.json
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.

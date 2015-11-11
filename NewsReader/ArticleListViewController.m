@@ -10,9 +10,12 @@
 #import "ArticleViewController.h"
 #import "ArticleTableViewCell.h"
 #import <MKNetworkKit/MKNetworkKit.h>
+#import "NewsItem.h"
 
 @interface ArticleListViewController () <UITableViewDelegate, UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *articleTableView;
+
+@property (strong, nonatomic) MKNetworkEngine* networkEngine;
 
 @end
 
@@ -21,11 +24,50 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    //https://dl.dropboxusercontent.com/u/1986074/t360/news.json
+    self.networkEngine = [[MKNetworkEngine alloc] initWithHostName:@"dl.dropboxusercontent.com" apiPath:@"u" customHeaderFields:nil];
+    
+    
     [self.articleTableView registerNib:[UINib nibWithNibName:@"ArticleTableViewCell" bundle:nil] forCellReuseIdentifier:kArticleTableViewCell];
     
     self.articleTableView.delegate = self;
     self.articleTableView.dataSource = self;
-    // Do any additional setup after loading the view from its nib.
+    
+    [self fetchNews:^(NSArray *news) {
+        NSLog(@"NEWS: %@", news);
+    }];
+}
+
+typedef void(^FetchNewsOnComplete)(NSArray *news);
+
+
+- (void)fetchNews:(FetchNewsOnComplete) onComplete{
+    
+    MKNetworkOperation* operation = [self.networkEngine operationWithPath:@"1986074/t360/news.json"];
+    [operation addCompletionHandler:^(MKNetworkOperation *completedOperation) {
+        [completedOperation responseJSONWithCompletionHandler:^(id jsonObject) {
+            NSArray* result = jsonObject;
+            NSMutableArray* newsItems = [NSMutableArray new];
+            for (NSDictionary* actItem in result) {
+                NewsItem* item = [NewsItem new];
+                item.title = actItem[@"title"];
+                item.body = actItem[@"body"];
+                item.imageUrl = actItem[@"image"];
+                item.articleUrl = actItem[@"url"];
+
+                [newsItems addObject:item];
+            }
+            
+            onComplete(newsItems);
+        }];
+    } errorHandler:^(MKNetworkOperation *completedOperation, NSError *error) {
+        onComplete(nil);
+        NSLog(@"error");
+    }];
+    
+    [self.networkEngine enqueueOperation:operation];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
