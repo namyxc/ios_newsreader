@@ -37,7 +37,11 @@
     
     self.articleTableView.delegate = self;
     self.articleTableView.dataSource = self;
+    [self refreshData];
     
+}
+
+-(void)refreshData{
     __weak ArticleListViewController* weakSelf = self;
     [self fetchNews:^(NSArray *news) {
         weakSelf.news = news;
