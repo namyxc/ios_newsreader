@@ -20,6 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self.articleTableView registerNib:[UINib nibWithNibName:@"ArticleTableViewCell" bundle:nil] forCellReuseIdentifier:kArticleTableViewCell];
+    
     self.articleTableView.delegate = self;
     self.articleTableView.dataSource = self;
     // Do any additional setup after loading the view from its nib.
@@ -34,15 +36,12 @@
     return 500;
 }
 
-#define kReuseIdentifier @"kReuseIdentifier"
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    UITableViewCell* cell =[tableView dequeueReusableCellWithIdentifier:kReuseIdentifier];
-    if (cell == nil) {
-        cell =[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:kReuseIdentifier];
-    }
+    ArticleTableViewCell* cell =[tableView dequeueReusableCellWithIdentifier:kArticleTableViewCell forIndexPath:indexPath];
     
-    cell.textLabel.text = [NSString stringWithFormat:@"%ld", indexPath.row];
+    
+    //cell.textLabel.text = [NSString stringWithFormat:@"%ld", indexPath.row];
     return cell;
 }
 

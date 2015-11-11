@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#define kArticleTableViewCell @"kArticleTableViewCell"
 
 @interface ArticleTableViewCell : UITableViewCell
 
