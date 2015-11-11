@@ -16,12 +16,22 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YKT-UM-9DD">
-                    <rect key="frame" x="0.0" y="0.0" width="414" height="683"/>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YKT-UM-9DD">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                     <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
                 </webView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="YKT-UM-9DD" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="NaP-Rv-rSx"/>
+                <constraint firstItem="YKT-UM-9DD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="O0l-zI-x0c"/>
+                <constraint firstItem="YKT-UM-9DD" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="can-fu-dYC"/>
+                <constraint firstAttribute="trailing" secondItem="YKT-UM-9DD" secondAttribute="trailing" id="mCj-s2-4SR"/>
+                <constraint firstAttribute="trailing" secondItem="YKT-UM-9DD" secondAttribute="trailing" id="tva-E1-YoZ"/>
+                <constraint firstAttribute="bottom" secondItem="YKT-UM-9DD" secondAttribute="bottom" id="uS3-FF-OGf"/>
+                <constraint firstItem="YKT-UM-9DD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="wkz-kx-oey"/>
+                <constraint firstAttribute="bottom" secondItem="YKT-UM-9DD" secondAttribute="bottom" id="xC1-Ug-pm9"/>
+            </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
             <point key="canvasLocation" x="233" y="393"/>
         </view>
