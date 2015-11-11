@@ -111,6 +111,12 @@ typedef void(^FetchNewsOnComplete)(NSArray *news);
 }
 
 
+- (void)viewWillAppear:(BOOL) animated{
+    [super viewWillAppear:animated];
+    
+    [self.navigationController setNavigationBarHidden:YES animated:YES];
+}
+
 /*
 #pragma mark - Navigation
 
