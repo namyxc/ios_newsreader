@@ -11,10 +11,14 @@
 #import "ArticleTableViewCell.h"
 #import <MKNetworkKit/MKNetworkKit.h>
 #import "NewsItem.h"
+#import "ImageHandler.h"
 
 @interface ArticleListViewController () <UITableViewDelegate, UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *articleTableView;
+
 @property (strong, nonatomic) MKNetworkEngine* networkEngine;
+@property (strong, nonatomic) ImageHandler* imageHandler;
+
 @property (strong, nonatomic) NSArray* news;
 
 @end
@@ -26,6 +30,7 @@
     
     //https://dl.dropboxusercontent.com/u/1986074/t360/news.json
     self.networkEngine = [[MKNetworkEngine alloc] initWithHostName:@"dl.dropboxusercontent.com" apiPath:@"u" customHeaderFields:nil];
+    self.imageHandler = [[ImageHandler alloc] initWithNetworkEngine:self.networkEngine];
     
     
     [self.articleTableView registerNib:[UINib nibWithNibName:@"ArticleTableViewCell" bundle:nil] forCellReuseIdentifier:kArticleTableViewCell];
@@ -56,7 +61,6 @@ typedef void(^FetchNewsOnComplete)(NSArray *news);
                 item.body = actItem[@"body"];
                 item.imageUrl = actItem[@"image"];
                 item.articleUrl = actItem[@"url"];
-
                 [newsItems addObject:item];
             }
             
@@ -85,15 +89,18 @@ typedef void(^FetchNewsOnComplete)(NSArray *news);
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     ArticleTableViewCell* cell =[tableView dequeueReusableCellWithIdentifier:kArticleTableViewCell forIndexPath:indexPath];
     NewsItem* item = self.news[indexPath.row];
+    cell.imageHandler = self.imageHandler;
     [cell update:item];
     
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    ArticleViewController* articleVc = [ArticleViewController new];
     NewsItem* item = self.news[indexPath.row];
-
+    ArticleViewController* articleVc = [ArticleViewController new];
+    
+    articleVc.articleUrlString = item.articleUrl;
+    
     [self.navigationController pushViewController:articleVc animated:YES];
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];

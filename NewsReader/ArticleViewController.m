@@ -13,13 +13,24 @@
 
 @end
 
-@implementation ArticleViewController
+@implementation ArticleViewController{
+    NSString* _url;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    [self refreshArticle];
+}
+
+- (void)setArticleUrlString:(NSString *)articleUrlString{
+    _articleUrlString = articleUrlString;
+    [self refreshArticle];
+}
+
+-(void)refreshArticle{
     
-    NSURL* url = [NSURL URLWithString:@"http://www.index.hu"];
+    NSURL* url = [NSURL URLWithString:self.articleUrlString];
     NSURLRequest* request = [NSURLRequest requestWithURL:url];
     [self.webView loadRequest:request];
 }

@@ -26,10 +26,16 @@
     self.newsTitleLabel.text = item.title;
     self.newsBodyLabel.text = item.body;
     
-    if (item.imageUrl != nil && item.imageUrl != (NSString*)[NSNull null]) {
-        NSData* imgData = [NSData dataWithContentsOfURL:[NSURL URLWithString:item.imageUrl]];
-        self.newsImageView.image = [UIImage imageWithData:imgData];
+    if (item.imageUrl == nil || item.imageUrl == (NSString*)[NSNull null]) {
+        item.imageUrl = [NSString stringWithFormat:@"http://www.reconregen.com/wp-content/uploads/2015/04/icon_missing_photo_detail.png"];
     }
+    __weak ArticleTableViewCell* weakSelf = self;
+    [self.imageHandler fetchImageWithUrlString:item.imageUrl onComplete:^(UIImage *image, NSString* urlString) {
+        if ([item.imageUrl isEqualToString:urlString]){
+            weakSelf.newsImageView.image = image;
+        }
+    }];
+
 }
 
 @end

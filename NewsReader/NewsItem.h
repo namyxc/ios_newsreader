@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+
 @interface NewsItem : NSObject
 
 @property (nonatomic, strong) NSString* title;
