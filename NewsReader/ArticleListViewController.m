@@ -14,8 +14,8 @@
 
 @interface ArticleListViewController () <UITableViewDelegate, UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *articleTableView;
-
 @property (strong, nonatomic) MKNetworkEngine* networkEngine;
+@property (strong, nonatomic) NSArray* news;
 
 @end
 
@@ -33,8 +33,10 @@
     self.articleTableView.delegate = self;
     self.articleTableView.dataSource = self;
     
+    __weak ArticleListViewController* weakSelf = self;
     [self fetchNews:^(NSArray *news) {
-        NSLog(@"NEWS: %@", news);
+        weakSelf.news = news;
+        [weakSelf.articleTableView reloadData];
     }];
 }
 
@@ -76,20 +78,22 @@ typedef void(^FetchNewsOnComplete)(NSArray *news);
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 500;
+    return [self.news count];
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     ArticleTableViewCell* cell =[tableView dequeueReusableCellWithIdentifier:kArticleTableViewCell forIndexPath:indexPath];
+    NewsItem* item = self.news[indexPath.row];
+    [cell update:item];
     
-    
-    //cell.textLabel.text = [NSString stringWithFormat:@"%ld", indexPath.row];
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     ArticleViewController* articleVc = [ArticleViewController new];
+    NewsItem* item = self.news[indexPath.row];
+
     [self.navigationController pushViewController:articleVc animated:YES];
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];

@@ -8,6 +8,7 @@
 
 #import "ArticleTableViewCell.h"
 
+
 @implementation ArticleTableViewCell
 
 - (void)awakeFromNib {
@@ -18,6 +19,17 @@
     [super setSelected:selected animated:animated];
 
     // Configure the view for the selected state
+}
+
+
+-(void)update:(NewsItem*) item{
+    self.newsTitleLabel.text = item.title;
+    self.newsBodyLabel.text = item.body;
+    
+    if (item.imageUrl != nil && item.imageUrl != (NSString*)[NSNull null]) {
+        NSData* imgData = [NSData dataWithContentsOfURL:[NSURL URLWithString:item.imageUrl]];
+        self.newsImageView.image = [UIImage imageWithData:imgData];
+    }
 }
 
 @end
