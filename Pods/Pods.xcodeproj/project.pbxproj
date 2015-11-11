@@ -7,328 +7,293 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		157CB81E803C54577D2A3EB9A3329E40 /* MKNetworkOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 93EE6F2CC06FB8DD0E2451EA69927509 /* MKNetworkOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1632E1CDDED3AF673395C9435D226F4C /* MKNetworkEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 30A59D315F30EBB92FF0451111835FE2 /* MKNetworkEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1DE6916052B5F9FAD9A969CB63FF77C4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F4B07CE0EAE9384949FA01CCD4D83E5 /* SystemConfiguration.framework */; };
-		1FD0F2EC55793E2E7C3B7D546E8513F8 /* NSDictionary+RequestEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = B4769FD4666B15DB35B25CFC5574D6AA /* NSDictionary+RequestEncoding.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		2132A780ED5D0E4EA0678ECA7E25C91F /* NSDictionary+RequestEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4DCBE368638F3539E6D6634818BEA9 /* NSDictionary+RequestEncoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A1D9F3FA73E3D5BCBD9409797C90646 /* UIAlertView+MKNetworkKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FA1556D481A6347173F0E0A9649F7C4 /* UIAlertView+MKNetworkKitAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A84AB59331435CB67AC5945642EA560 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 01D4B911626B8872B64FA14C41D5D0A2 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FCED496D028B16107B0D704FECB92CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30927E05698DB00D640EA69E238FE2F /* Foundation.framework */; };
-		52338101DE038126775E47A870AE7630 /* NSDate+RFC1123.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E20BA68EBF5AC5FF83F4079B7C30A8 /* NSDate+RFC1123.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		54661E669671D3DE6E754BCEC2D93077 /* MKNetworkKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F6E86F9DD042EB36689CFF0A9FEFB5C7 /* MKNetworkKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		60B833A47893A9B06482B4269029FFD1 /* NSData+MKBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 31965C83366F8487E51AE8938818BB22 /* NSData+MKBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74823E6ECEBE781A4EB5A2BC174BE85F /* MKNetworkKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F08321DC6A60EFFF1A7CEFE70F5EFEC /* MKNetworkKit-dummy.m */; };
-		76A78EBAE05F11A5A49DE4DB186881DE /* MKNetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCC21A9049AFF3CEB71D984729A9A1E /* MKNetworkEngine.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		77CBE4B233E667C8F7A3C205E04281C2 /* Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 628CF4AF8B1D324BB6E3D87DD218AD6C /* Reachability-dummy.m */; };
-		80381116D64F97A60E343094997B9548 /* Pods-NewsReader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 691185FFD0B9AA5B4B6C59A31BC862E7 /* Pods-NewsReader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B4EFF9BA74E4A8B0C703AA782F58F13 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC5EA6F7487522659CD47921E86CD76 /* Reachability.framework */; };
-		8DD40BC0EC735294C1B408226E821E15 /* Pods-NewsReader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA07A277E69CDAEF05A61C3B19CA3EED /* Pods-NewsReader-dummy.m */; };
-		95D9715DF24C9199DAD3260BB276377D /* MKNetworkKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C08375434B9ED998D5BDC491DCDC292 /* MKNetworkKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C1CB0297C536D23FE369EB792A9B198 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4A963E75A5C230215AA26A464F1E67 /* CFNetwork.framework */; };
-		B10C67115BBC471D2607427D011C2AA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30927E05698DB00D640EA69E238FE2F /* Foundation.framework */; };
-		B37D9713DBA8F8875D2082B83C587468 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E7D66DECB0855E5DC7F3531C3E5A6D /* Reachability.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		B97F7FBC35506877455C4645F3253B1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30927E05698DB00D640EA69E238FE2F /* Foundation.framework */; };
-		CC9C34655BBDB5194904A8B48E121C56 /* NSString+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AB43DB84F55428326677DE12E8644D2E /* NSString+MKNetworkKitAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		D04EF1C647B6D45C5F8B80D6492749ED /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08766E9CB43582EAA80B6BFE31678453 /* Security.framework */; };
-		D4E2FC256F9A12BA2712C00052AF36EC /* Reachability-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 683F82CF24440BE5282DD9DF7171235E /* Reachability-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D62FD5A6238F4DE8DFAAD3336618CF15 /* UIAlertView+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E8534761EAC1FEC8926608271BB2B2 /* UIAlertView+MKNetworkKitAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		D995951258E7CA3FD64339AD013D34A4 /* NSData+MKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F0016E6D48176077002FBE6A7C7AA2 /* NSData+MKBase64.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		DA5324A705BB65941AFB358A8152482B /* NSDate+RFC1123.h in Headers */ = {isa = PBXBuildFile; fileRef = F49E2836E51969DC0A06D251EA2CA3E8 /* NSDate+RFC1123.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE128C346D00B178E04566536AB82D8A /* MKNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B73F5A25E369CE065299CDF351AB10F4 /* MKNetworkOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		E4E6F4EC68476FAECD1B7F36903A51AE /* NSString+MKNetworkKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D31AD5C1905D36DDF5533A619E20EBA9 /* NSString+MKNetworkKitAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		088671A5CC20191570853CFFEE846867 /* NSData+MKBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 8566674FAD303F833BC105B8A8D30365 /* NSData+MKBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11C48960B81884F876D8DA91F4CE2699 /* UIAlertView+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E5444B0E79183C3D3F612C191A2B26A6 /* UIAlertView+MKNetworkKitAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		189E8124EB6CDB5B2BE90BA743C93DB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C49D928448B31FB9A7D5AE5C8D6C4E /* Foundation.framework */; };
+		236197A9395D542AB6C5601DEAAA3779 /* MKNetworkEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = B864FB1FB80141F9AFCF9B960543E29F /* MKNetworkEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3883A8C748241ACADE3ED33CC930A8AA /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B10D142DF0072A7BC9774DE0D586669 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3ACB8F09821A16E6C639FFA61E87273B /* Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0D7D7C3E2502E651EC825C34A690E3 /* Reachability-dummy.m */; };
+		3DD9569B48259D116E998E6625BE529C /* NSDictionary+RequestEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = D255719EF1DFDCABA4DACD63EA03D034 /* NSDictionary+RequestEncoding.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		43BD8163A6C414A2C7F0C01459EC9229 /* NSDictionary+RequestEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 948B16518ACB6CEBA732017461CE1BD5 /* NSDictionary+RequestEncoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5416C8735EF74FD1D7889B69E0ED91A0 /* MKNetworkKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7DD9E54B58DC810A7D4CF171E117F /* MKNetworkKit-dummy.m */; };
+		56AA8F61EDBC9A05DBDB7EF809C1BA1A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6166BE40C18BC6BF0EED92CAB212EC33 /* SystemConfiguration.framework */; };
+		6763802997ACEB3DED049A357E95D607 /* NSDate+RFC1123.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1DE5B7F8241B6113F02432DCAE86F3 /* NSDate+RFC1123.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6AD80F97FBC420B445C76964348D3552 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6204446BD9150A17B12E81B4A6F9CA8 /* Security.framework */; };
+		6BDCC63168EB3720097E6804F72DE3C3 /* NSString+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 342FCFE417AB92271032A58D8B7B0145 /* NSString+MKNetworkKitAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7739AB9C9C9F88F9A73B792D9A55E403 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C49D928448B31FB9A7D5AE5C8D6C4E /* Foundation.framework */; };
+		79019889EA229ABFBDCBD9BF70579E05 /* MKNetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5832674FB85FB72468041FCC90FD8A /* MKNetworkEngine.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7B754D3077F6FD8768A924C2142A186B /* UIAlertView+MKNetworkKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CF163B42FACC80BFAAD035E35B937C4D /* UIAlertView+MKNetworkKitAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C9220B2C32D1D3C6A60D3E166C59B42 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 561815A20B5F98C1D02999E794EDE39C /* Reachability.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		91870575069366069FD20FACCA089B72 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60F85758B54CB0D843A3E97DFFB2F21F /* CFNetwork.framework */; };
+		93D6FDF235755DC136404171833DA1FB /* NSDate+RFC1123.h in Headers */ = {isa = PBXBuildFile; fileRef = 1725006A82A4DD3DFB0363E7FE929BDD /* NSDate+RFC1123.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B40FA9219F12E7A578F642042B88A290 /* MKNetworkOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 70862D456B747AB9896FFB5E6234A8D0 /* MKNetworkOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5E2151F2AE5AF4AA10C44D71249F3A9 /* NSString+MKNetworkKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B05D61F3D702F35590BC694FFBB3C612 /* NSString+MKNetworkKitAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE96A64136B466C2AF9783BFBBEAF797 /* MKNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D10C3AD5A364B340DB4B2DDAF1ADF15B /* MKNetworkOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EC0BB871203C112DB885D97DDF22BBBC /* MKNetworkKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C84C2787F521F8F6F41B1B58C8BF176A /* MKNetworkKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC304B163A8893B28552EEAC93321A1C /* NSData+MKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6725C377777A8C45D8EE092D4F6899 /* NSData+MKBase64.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F16CFC0F0E63D5251C1ECA6E7465ED12 /* Pods-NewsReader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1405094E229908C0C9B0E3EC126D3AAA /* Pods-NewsReader-dummy.m */; };
+		FF4725B12394C74C39580CA49601B3EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C49D928448B31FB9A7D5AE5C8D6C4E /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		47DFD6711C44BC8B6940B7CF85C66B76 /* PBXContainerItemProxy */ = {
+		433DE4989953D87252B273B910B0F63F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 003C714469D82A522AABC33E32173B3A;
-			remoteInfo = Reachability;
-		};
-		762CFD3814E823253DCAFCAE3C66C491 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 003C714469D82A522AABC33E32173B3A;
-			remoteInfo = Reachability;
-		};
-		B6120EB5BEB2A520FB9E9CA46961E501 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9933B2A112D2E91ABCB927E605CD42CE;
+			remoteGlobalIDString = E811118AB23F86AD6C69A77BC0307B6F;
 			remoteInfo = MKNetworkKit;
+		};
+		85C6A7D4AEF695D1120CBD5E1E4E6E7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21A8F266963A1C31E766132AE864BE08;
+			remoteInfo = Reachability;
+		};
+		90740798AC7592A2D8E4A1D74FA237EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21A8F266963A1C31E766132AE864BE08;
+			remoteInfo = Reachability;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01D4B911626B8872B64FA14C41D5D0A2 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		08766E9CB43582EAA80B6BFE31678453 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		155AA654C23DF44D6609887CE359158B /* Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-prefix.pch"; sourceTree = "<group>"; };
-		19D5A8899E28ACDEDA31C346035D1D9E /* Pods-NewsReader-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NewsReader-resources.sh"; sourceTree = "<group>"; };
-		1A4A963E75A5C230215AA26A464F1E67 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		1CC5EA6F7487522659CD47921E86CD76 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		28E7D66DECB0855E5DC7F3531C3E5A6D /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		2C773E4B4858CB26CF646D77E676F357 /* Pods-NewsReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewsReader.debug.xcconfig"; sourceTree = "<group>"; };
-		30A59D315F30EBB92FF0451111835FE2 /* MKNetworkEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKNetworkEngine.h; path = MKNetworkKit/MKNetworkEngine.h; sourceTree = "<group>"; };
-		3114C43396D68B56312034786B2738A2 /* Pods-NewsReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewsReader.release.xcconfig"; sourceTree = "<group>"; };
-		31965C83366F8487E51AE8938818BB22 /* NSData+MKBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+MKBase64.h"; path = "MKNetworkKit/Categories/NSData+MKBase64.h"; sourceTree = "<group>"; };
-		3EDBDF1C3DF0F8CB235BF90EBF0F8577 /* Pods-NewsReader-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NewsReader-acknowledgements.markdown"; sourceTree = "<group>"; };
-		492E3F0A3E9A8D830EA2948F7779BB20 /* Pods-NewsReader-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewsReader-acknowledgements.plist"; sourceTree = "<group>"; };
-		52DE7F04C5659F9C03F0AD7DD0BAE4EB /* MKNetworkKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MKNetworkKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		58E20BA68EBF5AC5FF83F4079B7C30A8 /* NSDate+RFC1123.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+RFC1123.m"; path = "MKNetworkKit/Categories/NSDate+RFC1123.m"; sourceTree = "<group>"; };
-		5C08375434B9ED998D5BDC491DCDC292 /* MKNetworkKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKNetworkKit-umbrella.h"; sourceTree = "<group>"; };
-		61526D4D10E7A4031CC3A7DD2B7DC271 /* Pods-NewsReader-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NewsReader-frameworks.sh"; sourceTree = "<group>"; };
-		628CF4AF8B1D324BB6E3D87DD218AD6C /* Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reachability-dummy.m"; sourceTree = "<group>"; };
-		683F82CF24440BE5282DD9DF7171235E /* Reachability-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-umbrella.h"; sourceTree = "<group>"; };
-		691185FFD0B9AA5B4B6C59A31BC862E7 /* Pods-NewsReader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NewsReader-umbrella.h"; sourceTree = "<group>"; };
-		6C4DCBE368638F3539E6D6634818BEA9 /* NSDictionary+RequestEncoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+RequestEncoding.h"; path = "MKNetworkKit/Categories/NSDictionary+RequestEncoding.h"; sourceTree = "<group>"; };
-		6FA1556D481A6347173F0E0A9649F7C4 /* UIAlertView+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+MKNetworkKitAdditions.h"; path = "MKNetworkKit/Categories/UIAlertView+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
-		86E4656AE59CF52778D939D0754FD742 /* MKNetworkKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MKNetworkKit.modulemap; sourceTree = "<group>"; };
-		86F0016E6D48176077002FBE6A7C7AA2 /* NSData+MKBase64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+MKBase64.m"; path = "MKNetworkKit/Categories/NSData+MKBase64.m"; sourceTree = "<group>"; };
-		8AF5B6422F3C8544D13AAC352D40C44E /* Reachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.xcconfig; sourceTree = "<group>"; };
-		8C86182CDAF5797B276D1638267628DC /* Reachability.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Reachability.modulemap; sourceTree = "<group>"; };
-		8F08321DC6A60EFFF1A7CEFE70F5EFEC /* MKNetworkKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MKNetworkKit-dummy.m"; sourceTree = "<group>"; };
-		8F4B07CE0EAE9384949FA01CCD4D83E5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		8F66ED73CA9108CDFEBE41E26CCC25F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		926FF424A521B47CBBC399CD89849EE8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		92E27B50AA0C9F1F7660506299195494 /* Pods_NewsReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93EE6F2CC06FB8DD0E2451EA69927509 /* MKNetworkOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKNetworkOperation.h; path = MKNetworkKit/MKNetworkOperation.h; sourceTree = "<group>"; };
-		A30927E05698DB00D640EA69E238FE2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		A310AA2616C4EA85CB2E995444D351F3 /* MKNetworkKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKNetworkKit-prefix.pch"; sourceTree = "<group>"; };
-		A3F9BCF798D8091ADE73A7F60AD82C44 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A40439F8E4CDC56975430A34CB248120 /* MKNetworkKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MKNetworkKit.xcconfig; sourceTree = "<group>"; };
-		AB43DB84F55428326677DE12E8644D2E /* NSString+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MKNetworkKitAdditions.m"; path = "MKNetworkKit/Categories/NSString+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
-		B4769FD4666B15DB35B25CFC5574D6AA /* NSDictionary+RequestEncoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+RequestEncoding.m"; path = "MKNetworkKit/Categories/NSDictionary+RequestEncoding.m"; sourceTree = "<group>"; };
-		B73F5A25E369CE065299CDF351AB10F4 /* MKNetworkOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKNetworkOperation.m; path = MKNetworkKit/MKNetworkOperation.m; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; };
-		CAA6B79A65EBB7F94AC4DA829D513053 /* Pods-NewsReader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NewsReader.modulemap"; sourceTree = "<group>"; };
-		D31AD5C1905D36DDF5533A619E20EBA9 /* NSString+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MKNetworkKitAdditions.h"; path = "MKNetworkKit/Categories/NSString+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
-		DE1B2C83C42174D700F6CF0936445AFB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E3E8534761EAC1FEC8926608271BB2B2 /* UIAlertView+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+MKNetworkKitAdditions.m"; path = "MKNetworkKit/Categories/UIAlertView+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
-		EBCC21A9049AFF3CEB71D984729A9A1E /* MKNetworkEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKNetworkEngine.m; path = MKNetworkKit/MKNetworkEngine.m; sourceTree = "<group>"; };
-		F49E2836E51969DC0A06D251EA2CA3E8 /* NSDate+RFC1123.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+RFC1123.h"; path = "MKNetworkKit/Categories/NSDate+RFC1123.h"; sourceTree = "<group>"; };
-		F6E86F9DD042EB36689CFF0A9FEFB5C7 /* MKNetworkKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKNetworkKit.h; path = MKNetworkKit/MKNetworkKit.h; sourceTree = "<group>"; };
-		FA07A277E69CDAEF05A61C3B19CA3EED /* Pods-NewsReader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NewsReader-dummy.m"; sourceTree = "<group>"; };
+		075F7962B9E96B4CEBB1669C71558775 /* libMKNetworkKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMKNetworkKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1405094E229908C0C9B0E3EC126D3AAA /* Pods-NewsReader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NewsReader-dummy.m"; sourceTree = "<group>"; };
+		155510B20F521C889232431E9930779B /* libPods-NewsReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NewsReader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1725006A82A4DD3DFB0363E7FE929BDD /* NSDate+RFC1123.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+RFC1123.h"; path = "MKNetworkKit/Categories/NSDate+RFC1123.h"; sourceTree = "<group>"; };
+		1A9FA14CEAEB7412EC0F4D97191307D3 /* Pods-NewsReader-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NewsReader-frameworks.sh"; sourceTree = "<group>"; };
+		2B1AEFACBC7F96457027E9514AC78F0C /* Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-prefix.pch"; sourceTree = "<group>"; };
+		342FCFE417AB92271032A58D8B7B0145 /* NSString+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MKNetworkKitAdditions.m"; path = "MKNetworkKit/Categories/NSString+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
+		3B745B99FA16117B6DB639C3DDDFF2AC /* libReachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReachability.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C5832674FB85FB72468041FCC90FD8A /* MKNetworkEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKNetworkEngine.m; path = MKNetworkKit/MKNetworkEngine.m; sourceTree = "<group>"; };
+		4B6725C377777A8C45D8EE092D4F6899 /* NSData+MKBase64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+MKBase64.m"; path = "MKNetworkKit/Categories/NSData+MKBase64.m"; sourceTree = "<group>"; };
+		561815A20B5F98C1D02999E794EDE39C /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		5CDEBEBC67B27CB6915FDDDDB1591F7E /* MKNetworkKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKNetworkKit-prefix.pch"; sourceTree = "<group>"; };
+		60F85758B54CB0D843A3E97DFFB2F21F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		6166BE40C18BC6BF0EED92CAB212EC33 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		70862D456B747AB9896FFB5E6234A8D0 /* MKNetworkOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKNetworkOperation.h; path = MKNetworkKit/MKNetworkOperation.h; sourceTree = "<group>"; };
+		77C49D928448B31FB9A7D5AE5C8D6C4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		81A20C04B3BBC87EE370EF1A0F1F7325 /* Reachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.xcconfig; sourceTree = "<group>"; };
+		8566674FAD303F833BC105B8A8D30365 /* NSData+MKBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+MKBase64.h"; path = "MKNetworkKit/Categories/NSData+MKBase64.h"; sourceTree = "<group>"; };
+		8B10D142DF0072A7BC9774DE0D586669 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		8F0D7D7C3E2502E651EC825C34A690E3 /* Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reachability-dummy.m"; sourceTree = "<group>"; };
+		90F5D8E7F43504816ADAF795CD1BC432 /* Pods-NewsReader-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NewsReader-acknowledgements.markdown"; sourceTree = "<group>"; };
+		948B16518ACB6CEBA732017461CE1BD5 /* NSDictionary+RequestEncoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+RequestEncoding.h"; path = "MKNetworkKit/Categories/NSDictionary+RequestEncoding.h"; sourceTree = "<group>"; };
+		96A289326B79195D033976F99370BC18 /* Pods-NewsReader-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewsReader-acknowledgements.plist"; sourceTree = "<group>"; };
+		9FB7DD9E54B58DC810A7D4CF171E117F /* MKNetworkKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MKNetworkKit-dummy.m"; sourceTree = "<group>"; };
+		AC1DE5B7F8241B6113F02432DCAE86F3 /* NSDate+RFC1123.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+RFC1123.m"; path = "MKNetworkKit/Categories/NSDate+RFC1123.m"; sourceTree = "<group>"; };
+		ACD9BF468F5DDC7E399C3C311093123F /* Pods-NewsReader-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NewsReader-resources.sh"; sourceTree = "<group>"; };
+		B05D61F3D702F35590BC694FFBB3C612 /* NSString+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MKNetworkKitAdditions.h"; path = "MKNetworkKit/Categories/NSString+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		B864FB1FB80141F9AFCF9B960543E29F /* MKNetworkEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKNetworkEngine.h; path = MKNetworkKit/MKNetworkEngine.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BACB03A29EA16B1C1008FAD31475ECB2 /* Pods-NewsReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewsReader.release.xcconfig"; sourceTree = "<group>"; };
+		C6204446BD9150A17B12E81B4A6F9CA8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		C84C2787F521F8F6F41B1B58C8BF176A /* MKNetworkKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKNetworkKit.h; path = MKNetworkKit/MKNetworkKit.h; sourceTree = "<group>"; };
+		C91192645E7CB3712538E9D20DF9F620 /* Pods-NewsReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewsReader.debug.xcconfig"; sourceTree = "<group>"; };
+		CF163B42FACC80BFAAD035E35B937C4D /* UIAlertView+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+MKNetworkKitAdditions.h"; path = "MKNetworkKit/Categories/UIAlertView+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		D10C3AD5A364B340DB4B2DDAF1ADF15B /* MKNetworkOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKNetworkOperation.m; path = MKNetworkKit/MKNetworkOperation.m; sourceTree = "<group>"; };
+		D255719EF1DFDCABA4DACD63EA03D034 /* NSDictionary+RequestEncoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+RequestEncoding.m"; path = "MKNetworkKit/Categories/NSDictionary+RequestEncoding.m"; sourceTree = "<group>"; };
+		E105D4127BFBF01489A0E62A1EE6DAC6 /* MKNetworkKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MKNetworkKit.xcconfig; sourceTree = "<group>"; };
+		E5444B0E79183C3D3F612C191A2B26A6 /* UIAlertView+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+MKNetworkKitAdditions.m"; path = "MKNetworkKit/Categories/UIAlertView+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		20B9C8F02325151332C1C253DAD2EF2B /* Frameworks */ = {
+		2F57EE2CDE44F36C71ABBBBF647CD9BD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C1CB0297C536D23FE369EB792A9B198 /* CFNetwork.framework in Frameworks */,
-				B97F7FBC35506877455C4645F3253B1E /* Foundation.framework in Frameworks */,
-				8B4EFF9BA74E4A8B0C703AA782F58F13 /* Reachability.framework in Frameworks */,
-				D04EF1C647B6D45C5F8B80D6492749ED /* Security.framework in Frameworks */,
+				91870575069366069FD20FACCA089B72 /* CFNetwork.framework in Frameworks */,
+				7739AB9C9C9F88F9A73B792D9A55E403 /* Foundation.framework in Frameworks */,
+				6AD80F97FBC420B445C76964348D3552 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4359C138F3B3A7776D7FAF129FE99518 /* Frameworks */ = {
+		4E88FA58AE8A5DDAB837BE57D5750AD7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B10C67115BBC471D2607427D011C2AA6 /* Foundation.framework in Frameworks */,
+				FF4725B12394C74C39580CA49601B3EC /* Foundation.framework in Frameworks */,
+				56AA8F61EDBC9A05DBDB7EF809C1BA1A /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A21EA3C2969C0A332923B6908CA2F067 /* Frameworks */ = {
+		C1FDE3B143099B294BE33F237885B270 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FCED496D028B16107B0D704FECB92CA /* Foundation.framework in Frameworks */,
-				1DE6916052B5F9FAD9A969CB63FF77C4 /* SystemConfiguration.framework in Frameworks */,
+				189E8124EB6CDB5B2BE90BA743C93DB7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06CCDCA9C60D1CC74AC503CFCC1669E1 /* iOS */ = {
+		1365D27A90189BE6684EAC8F4A07EF37 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1A4A963E75A5C230215AA26A464F1E67 /* CFNetwork.framework */,
-				A30927E05698DB00D640EA69E238FE2F /* Foundation.framework */,
-				08766E9CB43582EAA80B6BFE31678453 /* Security.framework */,
-				8F4B07CE0EAE9384949FA01CCD4D83E5 /* SystemConfiguration.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		1771A0F937429B392263FAF97109CB64 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DE1B2C83C42174D700F6CF0936445AFB /* Info.plist */,
-				86E4656AE59CF52778D939D0754FD742 /* MKNetworkKit.modulemap */,
-				A40439F8E4CDC56975430A34CB248120 /* MKNetworkKit.xcconfig */,
-				8F08321DC6A60EFFF1A7CEFE70F5EFEC /* MKNetworkKit-dummy.m */,
-				A310AA2616C4EA85CB2E995444D351F3 /* MKNetworkKit-prefix.pch */,
-				5C08375434B9ED998D5BDC491DCDC292 /* MKNetworkKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/MKNetworkKit";
-			sourceTree = "<group>";
-		};
-		36C02D3CF8012F2437A173BFED0A203E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				926FF424A521B47CBBC399CD89849EE8 /* Info.plist */,
-				8C86182CDAF5797B276D1638267628DC /* Reachability.modulemap */,
-				8AF5B6422F3C8544D13AAC352D40C44E /* Reachability.xcconfig */,
-				628CF4AF8B1D324BB6E3D87DD218AD6C /* Reachability-dummy.m */,
-				155AA654C23DF44D6609887CE359158B /* Reachability-prefix.pch */,
-				683F82CF24440BE5282DD9DF7171235E /* Reachability-umbrella.h */,
+				81A20C04B3BBC87EE370EF1A0F1F7325 /* Reachability.xcconfig */,
+				8F0D7D7C3E2502E651EC825C34A690E3 /* Reachability-dummy.m */,
+				2B1AEFACBC7F96457027E9514AC78F0C /* Reachability-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Reachability";
 			sourceTree = "<group>";
 		};
-		50BD8620A388EB0306DE608C1D3635C1 /* Reachability */ = {
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				01D4B911626B8872B64FA14C41D5D0A2 /* Reachability.h */,
-				28E7D66DECB0855E5DC7F3531C3E5A6D /* Reachability.m */,
-				36C02D3CF8012F2437A173BFED0A203E /* Support Files */,
+				843A690C4A272ACCFA5202DC4499C74E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39C40A7DF8AFC06F1552BBEB527DB44D /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				8B10D142DF0072A7BC9774DE0D586669 /* Reachability.h */,
+				561815A20B5F98C1D02999E794EDE39C /* Reachability.m */,
+				1365D27A90189BE6684EAC8F4A07EF37 /* Support Files */,
 			);
 			path = Reachability;
+			sourceTree = "<group>";
+		};
+		4031D54115D0FDF8061A6CA0C34DC64D /* MKNetworkKit */ = {
+			isa = PBXGroup;
+			children = (
+				B864FB1FB80141F9AFCF9B960543E29F /* MKNetworkEngine.h */,
+				3C5832674FB85FB72468041FCC90FD8A /* MKNetworkEngine.m */,
+				C84C2787F521F8F6F41B1B58C8BF176A /* MKNetworkKit.h */,
+				70862D456B747AB9896FFB5E6234A8D0 /* MKNetworkOperation.h */,
+				D10C3AD5A364B340DB4B2DDAF1ADF15B /* MKNetworkOperation.m */,
+				8566674FAD303F833BC105B8A8D30365 /* NSData+MKBase64.h */,
+				4B6725C377777A8C45D8EE092D4F6899 /* NSData+MKBase64.m */,
+				1725006A82A4DD3DFB0363E7FE929BDD /* NSDate+RFC1123.h */,
+				AC1DE5B7F8241B6113F02432DCAE86F3 /* NSDate+RFC1123.m */,
+				948B16518ACB6CEBA732017461CE1BD5 /* NSDictionary+RequestEncoding.h */,
+				D255719EF1DFDCABA4DACD63EA03D034 /* NSDictionary+RequestEncoding.m */,
+				B05D61F3D702F35590BC694FFBB3C612 /* NSString+MKNetworkKitAdditions.h */,
+				342FCFE417AB92271032A58D8B7B0145 /* NSString+MKNetworkKitAdditions.m */,
+				CF163B42FACC80BFAAD035E35B937C4D /* UIAlertView+MKNetworkKitAdditions.h */,
+				E5444B0E79183C3D3F612C191A2B26A6 /* UIAlertView+MKNetworkKitAdditions.m */,
+				BA3D6291451876D71ED3F6C85A262A31 /* Support Files */,
+			);
+			path = MKNetworkKit;
+			sourceTree = "<group>";
+		};
+		43B94F91AB8C619F6921CF36D1D462A9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D0513A737C14F135934AF1F9A39D53E /* Pods-NewsReader */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6860BF5C580611BA9696D3B4EC6C90C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				075F7962B9E96B4CEBB1669C71558775 /* libMKNetworkKit.a */,
+				155510B20F521C889232431E9930779B /* libPods-NewsReader.a */,
+				3B745B99FA16117B6DB639C3DDDFF2AC /* libReachability.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D0513A737C14F135934AF1F9A39D53E /* Pods-NewsReader */ = {
+			isa = PBXGroup;
+			children = (
+				90F5D8E7F43504816ADAF795CD1BC432 /* Pods-NewsReader-acknowledgements.markdown */,
+				96A289326B79195D033976F99370BC18 /* Pods-NewsReader-acknowledgements.plist */,
+				1405094E229908C0C9B0E3EC126D3AAA /* Pods-NewsReader-dummy.m */,
+				1A9FA14CEAEB7412EC0F4D97191307D3 /* Pods-NewsReader-frameworks.sh */,
+				ACD9BF468F5DDC7E399C3C311093123F /* Pods-NewsReader-resources.sh */,
+				C91192645E7CB3712538E9D20DF9F620 /* Pods-NewsReader.debug.xcconfig */,
+				BACB03A29EA16B1C1008FAD31475ECB2 /* Pods-NewsReader.release.xcconfig */,
+			);
+			name = "Pods-NewsReader";
+			path = "Target Support Files/Pods-NewsReader";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				A609B33E2FDB2D38EDA350D1951BCC17 /* Frameworks */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
 				C54A6050B3C5E9918CF73918DB40DEBA /* Pods */,
-				DA4B0E986A7E74BD694D7AEEE42C1BD3 /* Products */,
-				A4CC5652492D3E4F8E7FC6BD91D7742F /* Targets Support Files */,
+				6860BF5C580611BA9696D3B4EC6C90C9 /* Products */,
+				43B94F91AB8C619F6921CF36D1D462A9 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A4CC5652492D3E4F8E7FC6BD91D7742F /* Targets Support Files */ = {
+		843A690C4A272ACCFA5202DC4499C74E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				D0197254F00CCEA6A32014A5117825B9 /* Pods-NewsReader */,
+				60F85758B54CB0D843A3E97DFFB2F21F /* CFNetwork.framework */,
+				77C49D928448B31FB9A7D5AE5C8D6C4E /* Foundation.framework */,
+				C6204446BD9150A17B12E81B4A6F9CA8 /* Security.framework */,
+				6166BE40C18BC6BF0EED92CAB212EC33 /* SystemConfiguration.framework */,
 			);
-			name = "Targets Support Files";
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		A609B33E2FDB2D38EDA350D1951BCC17 /* Frameworks */ = {
+		BA3D6291451876D71ED3F6C85A262A31 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1CC5EA6F7487522659CD47921E86CD76 /* Reachability.framework */,
-				06CCDCA9C60D1CC74AC503CFCC1669E1 /* iOS */,
+				E105D4127BFBF01489A0E62A1EE6DAC6 /* MKNetworkKit.xcconfig */,
+				9FB7DD9E54B58DC810A7D4CF171E117F /* MKNetworkKit-dummy.m */,
+				5CDEBEBC67B27CB6915FDDDDB1591F7E /* MKNetworkKit-prefix.pch */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/MKNetworkKit";
 			sourceTree = "<group>";
 		};
 		C54A6050B3C5E9918CF73918DB40DEBA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E4884A958C69937DD542422CAF0BDD95 /* MKNetworkKit */,
-				50BD8620A388EB0306DE608C1D3635C1 /* Reachability */,
+				4031D54115D0FDF8061A6CA0C34DC64D /* MKNetworkKit */,
+				39C40A7DF8AFC06F1552BBEB527DB44D /* Reachability */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		D0197254F00CCEA6A32014A5117825B9 /* Pods-NewsReader */ = {
-			isa = PBXGroup;
-			children = (
-				8F66ED73CA9108CDFEBE41E26CCC25F2 /* Info.plist */,
-				CAA6B79A65EBB7F94AC4DA829D513053 /* Pods-NewsReader.modulemap */,
-				3EDBDF1C3DF0F8CB235BF90EBF0F8577 /* Pods-NewsReader-acknowledgements.markdown */,
-				492E3F0A3E9A8D830EA2948F7779BB20 /* Pods-NewsReader-acknowledgements.plist */,
-				FA07A277E69CDAEF05A61C3B19CA3EED /* Pods-NewsReader-dummy.m */,
-				61526D4D10E7A4031CC3A7DD2B7DC271 /* Pods-NewsReader-frameworks.sh */,
-				19D5A8899E28ACDEDA31C346035D1D9E /* Pods-NewsReader-resources.sh */,
-				691185FFD0B9AA5B4B6C59A31BC862E7 /* Pods-NewsReader-umbrella.h */,
-				2C773E4B4858CB26CF646D77E676F357 /* Pods-NewsReader.debug.xcconfig */,
-				3114C43396D68B56312034786B2738A2 /* Pods-NewsReader.release.xcconfig */,
-			);
-			name = "Pods-NewsReader";
-			path = "Target Support Files/Pods-NewsReader";
-			sourceTree = "<group>";
-		};
-		DA4B0E986A7E74BD694D7AEEE42C1BD3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				52DE7F04C5659F9C03F0AD7DD0BAE4EB /* MKNetworkKit.framework */,
-				92E27B50AA0C9F1F7660506299195494 /* Pods_NewsReader.framework */,
-				A3F9BCF798D8091ADE73A7F60AD82C44 /* Reachability.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E4884A958C69937DD542422CAF0BDD95 /* MKNetworkKit */ = {
-			isa = PBXGroup;
-			children = (
-				30A59D315F30EBB92FF0451111835FE2 /* MKNetworkEngine.h */,
-				EBCC21A9049AFF3CEB71D984729A9A1E /* MKNetworkEngine.m */,
-				F6E86F9DD042EB36689CFF0A9FEFB5C7 /* MKNetworkKit.h */,
-				93EE6F2CC06FB8DD0E2451EA69927509 /* MKNetworkOperation.h */,
-				B73F5A25E369CE065299CDF351AB10F4 /* MKNetworkOperation.m */,
-				31965C83366F8487E51AE8938818BB22 /* NSData+MKBase64.h */,
-				86F0016E6D48176077002FBE6A7C7AA2 /* NSData+MKBase64.m */,
-				F49E2836E51969DC0A06D251EA2CA3E8 /* NSDate+RFC1123.h */,
-				58E20BA68EBF5AC5FF83F4079B7C30A8 /* NSDate+RFC1123.m */,
-				6C4DCBE368638F3539E6D6634818BEA9 /* NSDictionary+RequestEncoding.h */,
-				B4769FD4666B15DB35B25CFC5574D6AA /* NSDictionary+RequestEncoding.m */,
-				D31AD5C1905D36DDF5533A619E20EBA9 /* NSString+MKNetworkKitAdditions.h */,
-				AB43DB84F55428326677DE12E8644D2E /* NSString+MKNetworkKitAdditions.m */,
-				6FA1556D481A6347173F0E0A9649F7C4 /* UIAlertView+MKNetworkKitAdditions.h */,
-				E3E8534761EAC1FEC8926608271BB2B2 /* UIAlertView+MKNetworkKitAdditions.m */,
-				1771A0F937429B392263FAF97109CB64 /* Support Files */,
-			);
-			path = MKNetworkKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0D7B9CE54DCE6360B7F8ACDB22C93C53 /* Headers */ = {
+		A0D87D0210B689B06416838C93259E89 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4E2FC256F9A12BA2712C00052AF36EC /* Reachability-umbrella.h in Headers */,
-				3A84AB59331435CB67AC5945642EA560 /* Reachability.h in Headers */,
+				3883A8C748241ACADE3ED33CC930A8AA /* Reachability.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E409353ABDC016B49721C7BF7730309 /* Headers */ = {
+		AACF6D314CAB79924E0D6978B8B6ED53 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1632E1CDDED3AF673395C9435D226F4C /* MKNetworkEngine.h in Headers */,
-				95D9715DF24C9199DAD3260BB276377D /* MKNetworkKit-umbrella.h in Headers */,
-				54661E669671D3DE6E754BCEC2D93077 /* MKNetworkKit.h in Headers */,
-				157CB81E803C54577D2A3EB9A3329E40 /* MKNetworkOperation.h in Headers */,
-				60B833A47893A9B06482B4269029FFD1 /* NSData+MKBase64.h in Headers */,
-				DA5324A705BB65941AFB358A8152482B /* NSDate+RFC1123.h in Headers */,
-				2132A780ED5D0E4EA0678ECA7E25C91F /* NSDictionary+RequestEncoding.h in Headers */,
-				E4E6F4EC68476FAECD1B7F36903A51AE /* NSString+MKNetworkKitAdditions.h in Headers */,
-				3A1D9F3FA73E3D5BCBD9409797C90646 /* UIAlertView+MKNetworkKitAdditions.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CCE48048CEEF4ECFC198E3949F3A168A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80381116D64F97A60E343094997B9548 /* Pods-NewsReader-umbrella.h in Headers */,
+				236197A9395D542AB6C5601DEAAA3779 /* MKNetworkEngine.h in Headers */,
+				EC0BB871203C112DB885D97DDF22BBBC /* MKNetworkKit.h in Headers */,
+				B40FA9219F12E7A578F642042B88A290 /* MKNetworkOperation.h in Headers */,
+				088671A5CC20191570853CFFEE846867 /* NSData+MKBase64.h in Headers */,
+				93D6FDF235755DC136404171833DA1FB /* NSDate+RFC1123.h in Headers */,
+				43BD8163A6C414A2C7F0C01459EC9229 /* NSDictionary+RequestEncoding.h in Headers */,
+				C5E2151F2AE5AF4AA10C44D71249F3A9 /* NSString+MKNetworkKitAdditions.h in Headers */,
+				7B754D3077F6FD8768A924C2142A186B /* UIAlertView+MKNetworkKitAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		003C714469D82A522AABC33E32173B3A /* Reachability */ = {
+		21A8F266963A1C31E766132AE864BE08 /* Reachability */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F809740550D97D5ADD11769794CA1BF4 /* Build configuration list for PBXNativeTarget "Reachability" */;
+			buildConfigurationList = 9F5A09608E1C22827E81A50CDA692C90 /* Build configuration list for PBXNativeTarget "Reachability" */;
 			buildPhases = (
-				9557E827B18EDD029DB9CAF9D838658E /* Sources */,
-				A21EA3C2969C0A332923B6908CA2F067 /* Frameworks */,
-				0D7B9CE54DCE6360B7F8ACDB22C93C53 /* Headers */,
+				0C4E6596C4F1A8EE29AC97DB3F31CBB7 /* Sources */,
+				4E88FA58AE8A5DDAB837BE57D5750AD7 /* Frameworks */,
+				A0D87D0210B689B06416838C93259E89 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -336,45 +301,44 @@
 			);
 			name = Reachability;
 			productName = Reachability;
-			productReference = A3F9BCF798D8091ADE73A7F60AD82C44 /* Reachability.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 3B745B99FA16117B6DB639C3DDDFF2AC /* libReachability.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		1E67E113D8E5C000C6CE7836778F70BE /* Pods-NewsReader */ = {
+		76A7A4034A4FD74E8E6CA1747273ED6D /* Pods-NewsReader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D4DB09BC871B478F7E916D69C3A041D3 /* Build configuration list for PBXNativeTarget "Pods-NewsReader" */;
+			buildConfigurationList = F212D530331BD33F2D20732819862FFF /* Build configuration list for PBXNativeTarget "Pods-NewsReader" */;
 			buildPhases = (
-				840D48CE0548D2BC149FEDA31809EFDF /* Sources */,
-				4359C138F3B3A7776D7FAF129FE99518 /* Frameworks */,
-				CCE48048CEEF4ECFC198E3949F3A168A /* Headers */,
+				69E0C0FA628112364410F2B4883E0553 /* Sources */,
+				C1FDE3B143099B294BE33F237885B270 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B4F1F1C08F0A5908002371B8F8B64E7F /* PBXTargetDependency */,
-				4ABC2876D6AC978BF8CB98E8D50F1CDC /* PBXTargetDependency */,
+				BC1153C60B6BAD781F136FCBFFAD8D9B /* PBXTargetDependency */,
+				34CBF83B21919E7FBB0F4A7C368F94DC /* PBXTargetDependency */,
 			);
 			name = "Pods-NewsReader";
 			productName = "Pods-NewsReader";
-			productReference = 92E27B50AA0C9F1F7660506299195494 /* Pods_NewsReader.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 155510B20F521C889232431E9930779B /* libPods-NewsReader.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		9933B2A112D2E91ABCB927E605CD42CE /* MKNetworkKit */ = {
+		E811118AB23F86AD6C69A77BC0307B6F /* MKNetworkKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE75CC93A867F84A5BFE39A408DAAE79 /* Build configuration list for PBXNativeTarget "MKNetworkKit" */;
+			buildConfigurationList = 4D9245FE0F4FDDC0FE411081A0C85ED0 /* Build configuration list for PBXNativeTarget "MKNetworkKit" */;
 			buildPhases = (
-				046682A4854AD950664555D4A8B15700 /* Sources */,
-				20B9C8F02325151332C1C253DAD2EF2B /* Frameworks */,
-				5E409353ABDC016B49721C7BF7730309 /* Headers */,
+				0BC4E568719F59B87FB075BCF680ED3B /* Sources */,
+				2F57EE2CDE44F36C71ABBBBF647CD9BD /* Frameworks */,
+				AACF6D314CAB79924E0D6978B8B6ED53 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0B754FB62CF9282E1A2FC21B52E417A6 /* PBXTargetDependency */,
+				5EC10406F18BFE1B240FA24995E929BE /* PBXTargetDependency */,
 			);
 			name = MKNetworkKit;
 			productName = MKNetworkKit;
-			productReference = 52DE7F04C5659F9C03F0AD7DD0BAE4EB /* MKNetworkKit.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 075F7962B9E96B4CEBB1669C71558775 /* libMKNetworkKit.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -393,185 +357,159 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = DA4B0E986A7E74BD694D7AEEE42C1BD3 /* Products */;
+			productRefGroup = 6860BF5C580611BA9696D3B4EC6C90C9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9933B2A112D2E91ABCB927E605CD42CE /* MKNetworkKit */,
-				1E67E113D8E5C000C6CE7836778F70BE /* Pods-NewsReader */,
-				003C714469D82A522AABC33E32173B3A /* Reachability */,
+				E811118AB23F86AD6C69A77BC0307B6F /* MKNetworkKit */,
+				76A7A4034A4FD74E8E6CA1747273ED6D /* Pods-NewsReader */,
+				21A8F266963A1C31E766132AE864BE08 /* Reachability */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		046682A4854AD950664555D4A8B15700 /* Sources */ = {
+		0BC4E568719F59B87FB075BCF680ED3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76A78EBAE05F11A5A49DE4DB186881DE /* MKNetworkEngine.m in Sources */,
-				74823E6ECEBE781A4EB5A2BC174BE85F /* MKNetworkKit-dummy.m in Sources */,
-				DE128C346D00B178E04566536AB82D8A /* MKNetworkOperation.m in Sources */,
-				D995951258E7CA3FD64339AD013D34A4 /* NSData+MKBase64.m in Sources */,
-				52338101DE038126775E47A870AE7630 /* NSDate+RFC1123.m in Sources */,
-				1FD0F2EC55793E2E7C3B7D546E8513F8 /* NSDictionary+RequestEncoding.m in Sources */,
-				CC9C34655BBDB5194904A8B48E121C56 /* NSString+MKNetworkKitAdditions.m in Sources */,
-				D62FD5A6238F4DE8DFAAD3336618CF15 /* UIAlertView+MKNetworkKitAdditions.m in Sources */,
+				79019889EA229ABFBDCBD9BF70579E05 /* MKNetworkEngine.m in Sources */,
+				5416C8735EF74FD1D7889B69E0ED91A0 /* MKNetworkKit-dummy.m in Sources */,
+				CE96A64136B466C2AF9783BFBBEAF797 /* MKNetworkOperation.m in Sources */,
+				EC304B163A8893B28552EEAC93321A1C /* NSData+MKBase64.m in Sources */,
+				6763802997ACEB3DED049A357E95D607 /* NSDate+RFC1123.m in Sources */,
+				3DD9569B48259D116E998E6625BE529C /* NSDictionary+RequestEncoding.m in Sources */,
+				6BDCC63168EB3720097E6804F72DE3C3 /* NSString+MKNetworkKitAdditions.m in Sources */,
+				11C48960B81884F876D8DA91F4CE2699 /* UIAlertView+MKNetworkKitAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		840D48CE0548D2BC149FEDA31809EFDF /* Sources */ = {
+		0C4E6596C4F1A8EE29AC97DB3F31CBB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DD40BC0EC735294C1B408226E821E15 /* Pods-NewsReader-dummy.m in Sources */,
+				3ACB8F09821A16E6C639FFA61E87273B /* Reachability-dummy.m in Sources */,
+				7C9220B2C32D1D3C6A60D3E166C59B42 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9557E827B18EDD029DB9CAF9D838658E /* Sources */ = {
+		69E0C0FA628112364410F2B4883E0553 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77CBE4B233E667C8F7A3C205E04281C2 /* Reachability-dummy.m in Sources */,
-				B37D9713DBA8F8875D2082B83C587468 /* Reachability.m in Sources */,
+				F16CFC0F0E63D5251C1ECA6E7465ED12 /* Pods-NewsReader-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0B754FB62CF9282E1A2FC21B52E417A6 /* PBXTargetDependency */ = {
+		34CBF83B21919E7FBB0F4A7C368F94DC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Reachability;
-			target = 003C714469D82A522AABC33E32173B3A /* Reachability */;
-			targetProxy = 47DFD6711C44BC8B6940B7CF85C66B76 /* PBXContainerItemProxy */;
+			target = 21A8F266963A1C31E766132AE864BE08 /* Reachability */;
+			targetProxy = 90740798AC7592A2D8E4A1D74FA237EE /* PBXContainerItemProxy */;
 		};
-		4ABC2876D6AC978BF8CB98E8D50F1CDC /* PBXTargetDependency */ = {
+		5EC10406F18BFE1B240FA24995E929BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Reachability;
-			target = 003C714469D82A522AABC33E32173B3A /* Reachability */;
-			targetProxy = 762CFD3814E823253DCAFCAE3C66C491 /* PBXContainerItemProxy */;
+			target = 21A8F266963A1C31E766132AE864BE08 /* Reachability */;
+			targetProxy = 85C6A7D4AEF695D1120CBD5E1E4E6E7F /* PBXContainerItemProxy */;
 		};
-		B4F1F1C08F0A5908002371B8F8B64E7F /* PBXTargetDependency */ = {
+		BC1153C60B6BAD781F136FCBFFAD8D9B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MKNetworkKit;
-			target = 9933B2A112D2E91ABCB927E605CD42CE /* MKNetworkKit */;
-			targetProxy = B6120EB5BEB2A520FB9E9CA46961E501 /* PBXContainerItemProxy */;
+			target = E811118AB23F86AD6C69A77BC0307B6F /* MKNetworkKit */;
+			targetProxy = 433DE4989953D87252B273B910B0F63F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		05064C002F0C87B97DFB6F5BF76EB27B /* Release */ = {
+		28DC881C6F8E6420CC4118A8DA06820C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3114C43396D68B56312034786B2738A2 /* Pods-NewsReader.release.xcconfig */;
+			baseConfigurationReference = BACB03A29EA16B1C1008FAD31475ECB2 /* Pods-NewsReader.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-NewsReader/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NewsReader/Pods-NewsReader.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_NewsReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		1332F09BC4993965B441CCC43FD08354 /* Release */ = {
+		62C8046D84BC0AAD41A3A762A27DA33D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A40439F8E4CDC56975430A34CB248120 /* MKNetworkKit.xcconfig */;
+			baseConfigurationReference = 81A20C04B3BBC87EE370EF1A0F1F7325 /* Reachability.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MKNetworkKit/MKNetworkKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MKNetworkKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MKNetworkKit/MKNetworkKit.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = MKNetworkKit;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		23E018DAC86B2A33766DEAC0EC0E48B4 /* Debug */ = {
+		714F388A81A58C5CD044F0AF8AA04E65 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C773E4B4858CB26CF646D77E676F357 /* Pods-NewsReader.debug.xcconfig */;
+			baseConfigurationReference = 81A20C04B3BBC87EE370EF1A0F1F7325 /* Reachability.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-NewsReader/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NewsReader/Pods-NewsReader.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_NewsReader;
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		4F81534ABC2506C6B27877780740F400 /* Debug */ = {
+		8F3BD635A71092F5B79679746BB88A18 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8AF5B6422F3C8544D13AAC352D40C44E /* Reachability.xcconfig */;
+			baseConfigurationReference = E105D4127BFBF01489A0E62A1EE6DAC6 /* MKNetworkKit.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Reachability/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				GCC_PREFIX_HEADER = "Target Support Files/MKNetworkKit/MKNetworkKit-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Reachability/Reachability.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Reachability;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9613AF31439AFDABBCFF90EB909F4AF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C91192645E7CB3712538E9D20DF9F620 /* Pods-NewsReader.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -614,59 +552,23 @@
 			};
 			name = Debug;
 		};
-		D5B121B307F43AED68BB74D833791DC2 /* Release */ = {
+		D08A8B2B9296473F94D2F0541CD8EC23 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8AF5B6422F3C8544D13AAC352D40C44E /* Reachability.xcconfig */;
+			baseConfigurationReference = E105D4127BFBF01489A0E62A1EE6DAC6 /* MKNetworkKit.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Reachability/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Reachability/Reachability.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Reachability;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F91318D21319A4021179C629F8E562A3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A40439F8E4CDC56975430A34CB248120 /* MKNetworkKit.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/MKNetworkKit/MKNetworkKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MKNetworkKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MKNetworkKit/MKNetworkKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = MKNetworkKit;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -714,29 +616,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D4DB09BC871B478F7E916D69C3A041D3 /* Build configuration list for PBXNativeTarget "Pods-NewsReader" */ = {
+		4D9245FE0F4FDDC0FE411081A0C85ED0 /* Build configuration list for PBXNativeTarget "MKNetworkKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				23E018DAC86B2A33766DEAC0EC0E48B4 /* Debug */,
-				05064C002F0C87B97DFB6F5BF76EB27B /* Release */,
+				8F3BD635A71092F5B79679746BB88A18 /* Debug */,
+				D08A8B2B9296473F94D2F0541CD8EC23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE75CC93A867F84A5BFE39A408DAAE79 /* Build configuration list for PBXNativeTarget "MKNetworkKit" */ = {
+		9F5A09608E1C22827E81A50CDA692C90 /* Build configuration list for PBXNativeTarget "Reachability" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F91318D21319A4021179C629F8E562A3 /* Debug */,
-				1332F09BC4993965B441CCC43FD08354 /* Release */,
+				714F388A81A58C5CD044F0AF8AA04E65 /* Debug */,
+				62C8046D84BC0AAD41A3A762A27DA33D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F809740550D97D5ADD11769794CA1BF4 /* Build configuration list for PBXNativeTarget "Reachability" */ = {
+		F212D530331BD33F2D20732819862FFF /* Build configuration list for PBXNativeTarget "Pods-NewsReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F81534ABC2506C6B27877780740F400 /* Debug */,
-				D5B121B307F43AED68BB74D833791DC2 /* Release */,
+				9613AF31439AFDABBCFF90EB909F4AF3 /* Debug */,
+				28DC881C6F8E6420CC4118A8DA06820C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

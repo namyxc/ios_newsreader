@@ -82,12 +82,3 @@ strip_invalid_archs() {
   fi
 }
 
-
-if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-NewsReader/MKNetworkKit.framework"
-  install_framework "Pods-NewsReader/Reachability.framework"
-fi
-if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-NewsReader/MKNetworkKit.framework"
-  install_framework "Pods-NewsReader/Reachability.framework"
-fi

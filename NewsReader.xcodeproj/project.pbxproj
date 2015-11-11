@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		814695E5C44A0E017449FCDD /* Pods_NewsReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8C5221B8607B3FC8909319 /* Pods_NewsReader.framework */; };
+		2E84C6EFEA5F07B7351E2B65 /* libPods-NewsReader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A55F0D3E8FBA8CEBBB6D2425 /* libPods-NewsReader.a */; };
 		8A7E41901BF225AF00490D75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E418F1BF225AF00490D75 /* main.m */; };
 		8A7E41931BF225AF00490D75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E41921BF225AF00490D75 /* AppDelegate.m */; };
 		8A7E419B1BF225AF00490D75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A7E419A1BF225AF00490D75 /* Assets.xcassets */; };
@@ -22,7 +22,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5E8C5221B8607B3FC8909319 /* Pods_NewsReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A7E418B1BF225AF00490D75 /* NewsReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A7E418F1BF225AF00490D75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8A7E41911BF225AF00490D75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,6 +41,7 @@
 		8A7E41B41BF3398F00490D75 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		953D5BC5EFA60574CB9A3DBA /* Pods-NewsReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewsReader/Pods-NewsReader.release.xcconfig"; sourceTree = "<group>"; };
 		9C232F3C0B1D4A72C0891677 /* Pods-NewsReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewsReader/Pods-NewsReader.debug.xcconfig"; sourceTree = "<group>"; };
+		A55F0D3E8FBA8CEBBB6D2425 /* libPods-NewsReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NewsReader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				814695E5C44A0E017449FCDD /* Pods_NewsReader.framework in Frameworks */,
+				2E84C6EFEA5F07B7351E2B65 /* libPods-NewsReader.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,7 +68,7 @@
 		6219A6622F57B771B9DBB896 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5E8C5221B8607B3FC8909319 /* Pods_NewsReader.framework */,
+				A55F0D3E8FBA8CEBBB6D2425 /* libPods-NewsReader.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
